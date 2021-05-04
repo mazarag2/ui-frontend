@@ -14,4 +14,7 @@ deploy:
   bucket_name: "elasticbeanstalk-us-west-1-113021065873"
   bucket_path: "docker-react-ui"
   on:
-    bracnch: master
+    branch: master
+  access_key_id: $access_key_id
+  secret_access_key:
+    secure:: $secret_access_key
