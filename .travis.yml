@@ -1,0 +1,8 @@
+language: generic
+sudo: required
+services:
+  - docker
+before_install:
+  - docker build -t mazarag2/ui-frontend -f Dockerfile.dev .
+script:
+  - docker run -e CI=true mazarag2/ui-frontend npm run test -- --coverage
