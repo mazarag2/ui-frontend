@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+[![Build Status](https://travis-ci.com/mazarag2/ui-frontend.svg?branch=master)](https://travis-ci.com/mazarag2/ui-frontend)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
